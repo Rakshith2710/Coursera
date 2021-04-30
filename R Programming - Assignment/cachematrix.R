@@ -4,10 +4,10 @@
 ##
 ##------------------------------------------------------------------------------
 makeCacheMatrix <- function(x = matrix()) 
-  {
+{
   j <- NULL
   set <- function(y)
-    {
+  {
     x <<- y
     j <<- NULL
   }
