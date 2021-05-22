@@ -1,2 +1,2 @@
 # Data Science Coursera
-All the Assignments Done Under Coursear is Uploaded here.
+All the Assignments Done Under Coursera is Uploaded here.
