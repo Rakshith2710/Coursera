@@ -1,17 +1,17 @@
-Code Book for Data Process On UCI HAR Dataset.
+# Code Book for Data Process On UCI HAR Dataset.
 
 The data set that this code book pertains to is located in the tidy_data.txt file of this repository.
 See the README.md file of this repository for background information on this data set.
 The structure of the data set is described in the Data section, its variables are listed in the Variables section, and the transformations that were carried out to obtain the data set based on the source data are presented in the Transformations section.
 
 
-Data
+### Dataset Generated
 
   The tidy_data.txt data file is a text file, containing space-separated values.
   The first row contains the names of the variables, which are listed and described in the Variables section, and the following rows contain the values of these variables.
 
 
-Variables or Features
+### Variables or Features
 
   [1] "subject"                                              
   [2] "activity"                                             
@@ -494,7 +494,7 @@ Variables or Features
 [479] "angle(Z,gravityMean)"
 
 
-Classes or Activity Labels
+### Classes or Activity Labels
 
 [1] WALKING
 [2] WALKING_UPSTAIRS
@@ -504,7 +504,7 @@ Classes or Activity Labels
 [6] LAYING
 
 
-Transformations
+### Transformations
 
 [1] Merges the training and the test sets to create one data set.
 [2] Extracts only the measurements on the mean and standard deviation for each measurement. 
